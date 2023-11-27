@@ -1,7 +1,7 @@
 fn main() {
-    println!("Hello, world!");
-    another_functino();
+    let x = plus_one(5);
+    println!("X equals: {x}")
 }
-fn another_functino(){
-    println!("Another Line")
+fn plus_one(x: i32)->i32 {
+    x + 1
 }
